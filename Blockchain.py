@@ -7,10 +7,7 @@ import textwrap
 import time
 
 '''
-Remember block structure :
-    (previous_hash, data)
-where 
-    data is the encrypted data using one of the algo : AES, DES, or RC6
+This blockchain can encrypt data using AES, DES, and RC6 algo bassed on the choice
 '''
 class Blockchain():
     def __init__(self):
