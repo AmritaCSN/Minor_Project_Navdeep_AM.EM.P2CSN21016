@@ -5,7 +5,7 @@ class Block:
 
     def __init__(self, previous_hash, data):
         '''
-        data is in encrypted form
+        data is in encrypted form using AES, DES and RC6 based on the choice.
         '''
         self.timestamp = time.time()
         self.previous_hash = previous_hash
